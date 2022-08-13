@@ -1,5 +1,6 @@
 body {
   background-color: rgb(11, 11, 51);
+ 
 }
 
 .image {
@@ -10,7 +11,7 @@ body {
   margin-top: 10%;
   height: auto;
 
-  width: 400px;
+  width: 300px;
 }
 
 h1 {
@@ -19,28 +20,41 @@ h1 {
 
 }
 
-#btn {
+#btn_box {
   text-align: center;
+  flex-direction: column;
+  width: 400px;
+  display: flex;
   margin-top: 20px;
-  background-color:#5f27cd;
-
-  width: 290px;
-  display: block;
+  padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 3px;
-
   font-size: 17px;
 
 }
 
-#btn:hover{
-  transition: 1s;
-  background: #7656b5;
+a {
+  background-color: #5f27cd;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+
 }
 
-a {
-  padding: 10px;
-  text-decoration: none;
-  color: white;
+.btn_yt:hover{
+  transition: 1s;
+  background-color: red;
 }
+
+.btn_itg:hover{
+  transition: 1s;
+  background-color: #ec5fec;
+}
+
+.btn_wp:hover{
+  transition: 1s;
+  background-color: #25d366;
+}
+
