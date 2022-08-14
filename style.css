@@ -8,7 +8,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-  margin-top: 10%;
+  margin-top: 3%;
   height: auto;
 
   width: 300px;
@@ -18,6 +18,11 @@ h1 {
   text-align: center;
   color: white;
 
+}
+
+h3 {
+  text-align: center;
+  color: white;
 }
 
 #btn_box {
@@ -30,16 +35,26 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   font-size: 17px;
+  margin-bottom: 150px;
 
+}
+
+@media(max-width: 470px){
+  #btn_box {
+    width: 285px;
+
+  }
 }
 
 a {
   background-color: #5f27cd;
   color: white;
+  font-family: sans-serif;
   padding: 20px;
   margin-bottom: 20px;
   text-decoration: none;
   border-radius: 5px;
+  font-weight: bold;
 
 }
 
@@ -55,6 +70,13 @@ a {
 
 .btn_wp:hover{
   transition: 1s;
-  background-color: #25d366;
+  background-color: #178e43;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  color: white;
+
 }
 
