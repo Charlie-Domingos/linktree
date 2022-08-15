@@ -11,18 +11,13 @@ body {
   margin-top: 3%;
   height: auto;
 
-  width: 300px;
+  width: 190px;
 }
 
-h1 {
+h1, h2, h3, h4{
   text-align: center;
   color: white;
 
-}
-
-h3 {
-  text-align: center;
-  color: white;
 }
 
 #btn_box {
@@ -77,6 +72,12 @@ footer{
   display: flex;
   justify-content: center;
   color: white;
+  font-size: 13px;
 
+}
+
+span {
+  font-weight: bold;
+  font-size: 14px;
 }
 
