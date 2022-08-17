@@ -31,7 +31,7 @@ h2{
 #btn_box {
   text-align: center;
   flex-direction: column;
-  width: 30rem;
+  max-width: 30rem;
   display: flex;
   margin-top: 20px;
   padding: 1.5rem;
@@ -40,13 +40,6 @@ h2{
   font-size: 17px;
   margin-bottom: 8rem;
 
-}
-
-@media(max-width: 470px){
-  #btn_box {
-    width: 285px;
-
-  }
 }
 
 a {
