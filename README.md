@@ -1,6 +1,4 @@
 # linktree
-<<<<<<< HEAD
-=======
 
 <h3>Projeto criado para um amigo DJ onde é exibido suas redes socias e contatos</h3>
 <h4>Ferramentas utilizadas</h4>
@@ -10,5 +8,5 @@
 
 </ul>
 
-<img src="/previewDJ.png">
->>>>>>> 9f58f7db29860e5b4617cd32a49dc1c89ccf2213
+<img src="/preview.png">
+
