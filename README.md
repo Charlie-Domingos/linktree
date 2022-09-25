@@ -8,4 +8,4 @@
 
 </ul>
 
-<img src="/previewDJ">
+<img src="/previewDJ.png">
